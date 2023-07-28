@@ -49,20 +49,22 @@ body {
 .board button {
   padding: 8px 12px;
   margin: 25px;
-  background: #7d9c6f;
-  border: 2px solid #06f306;
+  background: #4284c2f6;
+  border: 2px solid #0400f0;
   color: #000000;
   width: 100px;
   border-radius: 10px;
   transition: 0.2s;
   font-weight:bolder;
   cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
 }
 
 .board button:hover {
-  background: #4dec03;
-  color: #005de9;
+  background: #51b8e0da;
+  color: #000000;
   border-radius: 14px;
+  transform: scale(1.1);
 }
 
 .board .game {
